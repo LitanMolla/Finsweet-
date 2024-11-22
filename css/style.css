@@ -1,0 +1,822 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
+/* All Common CSS End */
+
+
+/* Header Part Start */
+#hero{
+    background: #000000;
+}
+
+.headPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0;
+}
+
+.menuHead ul li{
+    display: inline-block;
+}
+
+.menuHead ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 45px;
+    text-transform: uppercase;
+}
+
+.headRightButton a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1C1D28;
+    text-transform: uppercase;
+    background: #FFD2A4;
+    padding: 18px 48px;
+    border-radius: 12px;
+}
+
+
+
+
+
+.heroBG{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 130px;
+}
+
+.heroText p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding-top: 130px;
+}
+
+.heroText h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 82px;
+    padding-right: 360px;
+}
+
+.heroText a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1C1D28;
+    background: #FFD2A4;
+    padding: 22px 70px;
+    border-radius: 12px;
+    margin-bottom: 65px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.heroText h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+    margin-left: 25px;
+    padding-right: 1000px;
+}
+
+.heroText h6::before{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    height: 2px;
+    width: 20px;
+    content: "";
+    background: #FFD2A4;
+    transform: translateY(-50%);
+    margin-left: -25px;
+}
+/* Header Part End */
+
+
+/* Box Part Start */
+.boxHead{
+    margin-top: 120px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.boxHead p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.boxHead h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.boxPart{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 125px;
+}
+
+.boxItem{
+    width: 32%;
+    background: #fff4ec;
+}
+
+.boxContent{
+    padding: 65px;
+}
+
+.boxItem h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.boxItem p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-right: 45px;
+}
+
+
+.boxItem hr{
+    border: 0;
+    height: 15px;
+    width: 100%;
+    background: #FFD2A4;
+}
+
+
+
+
+
+
+/* Box Part End */
+
+
+/* Love Part Start */
+#love{
+    padding-bottom: 130px;
+}
+
+.loveHeader{
+    text-align: center;
+}
+
+.loveHeader h6{
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.loveHeader h1{
+    font-size: 48px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.loveHeader p{
+    font-size: 16px;
+    color: #000000;
+    padding: 0 240px;
+    line-height: 150%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.loveHeader a{
+    font-size: 16px;
+    color: #1C1D28;
+    text-transform: uppercase;
+    background: #FFD2A4;
+    padding: 22px 62px;
+    border-radius: 12px;
+}
+
+
+
+.loveImgPart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideImg{
+    width: 30%;
+    position: relative;
+    top: -20px;
+}
+
+.sideImg img{
+    width: 100%;
+    display: block;
+}
+
+.centerImg{
+    width: 36%;
+    margin-top: 50px;
+}
+
+.centerImg img{
+    width: 100%;
+    display: block;
+}
+
+.loveBottomText{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.loveBottomText h6{
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.loveBottomText h1{
+    font-size: 48px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.loveBottomText p{
+    font-size: 16px;
+    color: #000000;
+    padding: 0 400px;
+    line-height: 150%;
+}
+
+.loveBottomText a{
+    font-size: 16px;
+    color: #000000;
+    padding: 0 400px;
+    line-height: 150%;
+    margin-top: 20px;
+}
+/* Love Part End */
+
+
+/* Media Part Start */
+#media{
+    background: #F5F2F0;
+    padding-top: 130px;
+    padding-bottom: 125px;
+}
+
+.mediaHeader{
+    text-align: center;
+}
+
+.mediaHeader p{
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.mediaHeader h1{
+    font-size: 48px;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 0 420px;
+    margin-bottom: 70px;
+}
+
+.mediaImgPart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mediaItem{
+    width: 24%;
+    position: relative;
+}
+
+.mediaItem img{
+    width: 100%;
+}
+
+.mediaItem h1{
+    position: absolute;
+    padding: 0 44px;
+    bottom: 44px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.media1111 h1{
+    position: absolute;
+    padding: 0 44px;
+    bottom: 130px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.media1111 p{
+    position: absolute;
+    color: #ffffff;
+    padding: 0 44px;
+    bottom: 44px;
+}
+/* Media Part End */
+
+
+/* SERMONS Part Start */
+
+.seremonHeader{
+    text-align: center;
+}
+
+.seremonHeader p{
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+
+.seremonHeader h1{
+    font-size: 48px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    padding: 0 300px;
+}
+
+.sermonImgPart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.srText{
+    width: 25%;
+    background: #fff4ec;
+    padding: 60px 85px;
+    position: relative;
+}
+
+
+.bageText{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    text-align: center;
+}
+
+.bageText h1{
+    position: absolute;
+    font-size: 40px;
+}
+
+.bageText p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.srImg{
+    width: 75%;
+}
+
+.srImg img{
+    width: 100%;
+    display: block;
+}
+
+.srText h6{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f3b06e;
+    margin-bottom: 18px;
+}
+
+.srText h1{
+  text-transform: uppercase;  
+  font-size: 24px;
+  color: #000000;
+  padding-bottom: 25px;
+}
+
+.srText p{
+  font-size: 16px;
+  color: #000000;
+}
+
+.iconx{
+    margin-top: 30px;
+    display: flex;
+}
+
+.iconxx{
+    margin-top: 20px;
+    display: flex;
+}
+
+.ic i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.txt p{
+    font-size: 16px;
+    color: #000000;
+    padding-right: 50px;
+    line-height: 150%;
+}
+
+.srText a{
+    color: #f3b06e;
+    background: #000000;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 22px 63px;
+    border-radius: 12px;
+    margin-top: 35px;
+    transition: .5s;
+}
+
+.srText a:hover{
+    color: #f78b1f;
+    background: #3f3f3f;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 22px 63px;
+    border-radius: 12px;
+    margin-top: 35px;
+}
+
+.srBottom{
+    text-align: end;
+    margin-bottom: 130px;
+    margin-top: 45px;
+}
+
+.srBottom a{
+    font-size: 24px;
+    color: #000000;
+}
+
+.srBottom a i{
+    margin-left: 10px;
+}
+/* SERMONS Part End */
+
+
+/* Banner2 Part Start */
+#bannerBottom{
+    background: url(../images/bannerMasqute.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgBoverly{
+    background: #f78b1f1a;
+    padding: 145px 0;
+}
+
+.box-Part{
+    background: #ffffff;
+    padding-top: 70px;
+    margin: 0 275px;
+}
+
+.hr{
+    border: 0;
+    height: 16px;
+    width: 100%;
+    background: #FFD2A4;
+}
+
+.box-Content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxleft{
+    margin-left: 45px;
+    margin-bottom: 55px;
+}
+
+.boxleft h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-right: 100px;
+}
+
+.boxleft p{
+    font-size: 16px;
+    color: #000000;
+    margin-top: 30px;
+    padding-right: 200px;
+    line-height: 150%;
+}
+
+.boxleft a{
+    font-size: 16px;
+    color: #000000;
+    background: #FFD2A4;
+    text-transform: uppercase;
+    padding: 22px 63px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+
+.boxright{
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Banner2 Part End */
+
+
+/* ButtomBox Part Start */
+#buttombox{
+    padding: 125px;
+}
+
+.bottoBoxFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomBoxx{
+    width: 19%;
+    background: #fff4ec;
+    padding: 50px 30px;
+}
+
+.bottomBoxx h5{
+    text-transform: uppercase;
+    color: #f78b1f;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.bottomBoxx h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #000000;
+}
+
+.bottomBoxx p{
+    font-size: 16px;
+    color: #000000;
+    text-transform: capitalize;
+    line-height: 150%;
+    margin-bottom: 55px;
+    margin-top: 10px;
+}
+
+.bottomBoxx h3{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.bottomSali{
+    width: 19%;
+    background: #fff4ec;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+.bottomBoxx11{
+    width: 19%;
+    background: #fff4ec;
+    padding: 50px 30px;
+    position: relative;
+}
+
+.bottomBoxx11 h5{
+    text-transform: uppercase;
+    color: #f78b1f;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.bottomBoxx11 h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #000000;
+}
+
+.bottomBoxx11 p{
+    font-size: 16px;
+    color: #000000;
+    text-transform: capitalize;
+    line-height: 150%;
+    margin-bottom: 55px;
+    margin-top: 10px;
+}
+
+.bottomBoxx11 h3{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+
+.bottomBoxx11::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background: #f3b06e;
+    height: 16px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* ButtomBox Part End */
+
+
+/* Footer Part Start */
+#footerID{
+    background: #161722;
+    padding: 65px 0;
+}
+
+.footerFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flogoPart{
+    width: 30%;
+}
+
+.flogoPart h4{
+    font-size: 12px;
+    color: #F5F2F0;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.flogoPart p{
+    font-size: 12px;
+    color: #F5F2F0;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.footerMenu{
+    width: 15%;
+}
+
+.footerMenu p, .footerSocial p{
+    font-size: 16px;
+    color: #F5F2F0;
+    font-weight: 400; 
+    margin-bottom: 30px;
+}
+
+.footerMenu ul li a{
+    font-size: 12px;
+    color: #F5F2F0;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.footerSocial{
+    width: 15%;
+}
+
+
+
+.iconxxx i:hover{
+    color: chartreuse;
+}
+.iconxxx i{
+    color: #f3b06e;
+    margin-right: 20px;
+    transition: .5s;
+}
+
+.emailSubscribe{
+    width: 35%;
+}
+
+.emailSubscribe h1{
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+.mailSub input{
+    background: transparent;
+    border: 1px solid #FFD2A4;
+    padding: 20px 120px 20px 20px;
+    border-radius: 12px;
+    color: #ffffff;
+}
+
+.mailSub button{
+    background: #FFD2A4;
+    border-radius: 12px;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    border: none;
+    margin-left: -20px;
+}
+
+.boxBheader{
+    text-align: center;
+}
+
+.boxBheader p{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.boxBheader h1{
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-bottom: 75px;
+}
+/* Footer Part End */
+
+
+/* Header Part Start */
+/* Header Part End */
+
+
+/* Header Part Start */
+/* Header Part End */
+
+
+/* Header Part Start */
+/* Header Part End */
+
+
+/* Header Part Start */
+/* Header Part End */
+
+
+/* Header Part Start */
+/* Header Part End */
+
+
+
+
